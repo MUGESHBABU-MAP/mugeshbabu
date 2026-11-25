@@ -1,515 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MUGESHBABU</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="text/stylesheet" href="min.css">
-    <link rel="shortcut icon" type="image/jpg" href="images/mb_img.jpg"/>
-    <script src="app.js"></script>
-    <script src="e.js"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3198016437808117"
-     crossorigin="anonymous"></script>
-<script data-ad-client="ca-pub-3198016437808117" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mugeshbabu Arulmani | AI Product Engineer, MCP &amp; Agentic AI</title>
+  <meta name="description" content="Mugeshbabu Arulmani is an AI Product Engineer and Forward Deployed Engineer building enterprise AI agents, MCP servers and multi-tenant SaaS on AWS Bedrock, with SAP integration. Claude Certified Architect.">
+  <meta name="author" content="Mugeshbabu Arulmani">
+  <meta name="keywords" content="Mugeshbabu Arulmani, AI Product Engineer, Forward Deployed Engineer, AI agents, Model Context Protocol, MCP, AWS Bedrock, Claude Certified Architect, SAP integration, Next.js, NestJS, FastAPI, Angular">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#07090f">
+  <link rel="canonical" href="https://mugeshbabu.mugeshbabu.in/">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Mugeshbabu Arulmani">
+  <meta property="og:url" content="https://mugeshbabu.mugeshbabu.in/">
+  <meta property="og:title" content="Mugeshbabu Arulmani | AI Product Engineer">
+  <meta property="og:description" content="I build enterprise AI agents, MCP servers and multi-tenant SaaS, and connect them to SAP. 4+ years at KTern.AI. Claude Certified Architect.">
+  <meta property="og:image" content="https://mugeshbabu.mugeshbabu.in/images/og-image.jpg">
+  <meta property="og:image:secure_url" content="https://mugeshbabu.mugeshbabu.in/images/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="1200">
+  <meta property="og:image:alt" content="Portrait of Mugeshbabu Arulmani, AI Product Engineer">
+  <meta property="og:locale" content="en_IN">
+  <meta property="profile:first_name" content="Mugeshbabu">
+  <meta property="profile:last_name" content="Arulmani">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mugeshbabu Arulmani | AI Product Engineer">
+  <meta name="twitter:description" content="Enterprise AI agents, MCP, AWS Bedrock and SAP integration. Claude Certified Architect.">
+  <meta name="twitter:image" content="https://mugeshbabu.mugeshbabu.in/images/og-image.jpg">
+  <meta name="twitter:image:alt" content="Portrait of Mugeshbabu Arulmani">
+
+  <link rel="icon" type="image/png" sizes="256x256" href="images/favicon-256.png">
+  <link rel="apple-touch-icon" href="images/favicon-256.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>try{var t=localStorage.getItem('theme')||'dark';document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='dark'}</script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Mugeshbabu Arulmani","jobTitle":"AI Product Engineer","url":"https://mugeshbabu.mugeshbabu.in/","image":"https://mugeshbabu.mugeshbabu.in/images/og-image.jpg","description":"AI Product Engineer building enterprise AI agents, MCP servers and SAP integrations.","knowsAbout":["AI Agents","Model Context Protocol","AWS Bedrock","SAP","NestJS","Next.js"],"alumniOf":"Sona College of Technology","email":"mailto:mugesharul1301@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Dharmapuri","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/mugeshbabu","https://github.com/MUGESHBABU-MAP"],"worksFor":{"@type":"Organization","name":"KTern.AI - Kaar Technologies"}}
+  </script>
 </head>
 <body>
-    <div>
-    <div id="home01">
-        <div class="home01"  style="min-height:760px">
-        <div class="navbar" id="nav"><br>
+  <div class="progress" id="progress"></div>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="glow" id="glow" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">mugesh<span>.</span>dev</a>
+    <button class="theme" id="theme" aria-label="Toggle light and dark mode" title="Toggle theme"><span class="sun">&#9728;</span><span class="moon">&#9790;</span></button>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+    <nav id="menu">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#research">Research</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#contact" class="cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow reveal"><span class="dot"></span> Open to AI product engineering roles</p>
+        <h1 class="reveal">Hi, I'm <span class="grad">Mugeshbabu Arulmani</span></h1>
+        <p class="role reveal"><span id="typed"></span><span class="caret">|</span></p>
+        <p class="lead reveal">I build enterprise AI agents and full-stack platforms. My work connects LLMs, MCP and AWS Bedrock to SAP landscapes and multi-tenant SaaS products.</p>
+        <div class="actions reveal">
+          <a href="#projects" class="btn primary magnetic">View my work</a>
+          <a href="#contact" class="btn ghost magnetic">Get in touch</a>
+          <a href="https://github.com/MUGESHBABU-MAP" target="_blank" rel="noopener" class="btn ghost magnetic">GitHub</a>
+        </div>
+        <div class="badge reveal"><span>&#9670;</span> Claude Certified Architect &ndash; Foundations (2026)</div>
+      </div>
+      <div class="hero-card reveal" data-tilt>
+        <div class="photo"><img src="images/mugeshbabu.jpeg" alt="Portrait of Mugeshbabu Arulmani"></div>
+        <div class="terminal">
+          <div class="t-bar"><i></i><i></i><i></i></div>
+<pre><span class="c">// profile.ts</span>
+<span class="k">const</span> mugesh = {
+  role: <span class="s">"AI Product Engineer"</span>,
+  stack: [<span class="s">"MCP"</span>, <span class="s">"Bedrock"</span>, <span class="s">"NestJS"</span>],
+  focus: <span class="s">"agentic workflows"</span>,
+  base: <span class="s">"Dharmapuri, IN"</span>
+};</pre>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+      <div class="stat reveal"><b data-count="4" data-suffix="+">0</b><span>Years building enterprise SaaS</span></div>
+      <div class="stat reveal"><b data-count="3" data-suffix="">0</b><span>Research publications</span></div>
+      <a class="stat reveal link" href="https://play.google.com/store/apps/developer?id=MUGESHBABU+ARULMANI" target="_blank" rel="noopener"><b class="icon">&#9654;</b><span>My apps on Google Play &nearr;</span></a>
+      <div class="stat reveal now"><b id="now">AI agents</b><span>Currently building</span></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="title reveal"><small>01</small> About</h2>
+      <div class="about-grid">
+        <p class="reveal">AI-focused Product Engineer with 4+ years of experience building enterprise SaaS platforms, AI agents, full-stack applications and SAP integration solutions. I work across Angular, React, Next.js, Node.js, NestJS, Python and FastAPI, plus LLMs, AWS Bedrock, agentic workflows and Model Context Protocol (MCP).</p>
+        <p class="reveal">I built SAP data extraction solutions with the KTern connector and ABAP ADT MCP, backed by MongoDB and AWS S3, for SAP system analysis. I pair engineering with requirement analysis, solution design, customer engagement and technical ownership.</p>
+      </div>
+      <div class="cert-row">
+        <div class="cert reveal" data-tilt>
+          <h3>Claude Certified Architect &ndash; Foundations</h3>
+          <p>Issued Nov 2026 &middot; Valid to Nov 2027</p>
+        </div>
+        <div class="cert reveal" data-tilt>
+          <h3>MongoDB Node.js &amp; Python Developer Paths</h3>
+          <p>Issued Oct 2023</p>
+        </div>
+        <div class="cert reveal" data-tilt>
+          <h3>B.E. Electronics &amp; Communication</h3>
+          <p>Sona College of Technology &middot; 2018 &ndash; 2022 &middot; Best Student of the Year 2018&ndash;19</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2 class="title reveal"><small>02</small> Experience</h2>
+      <div class="timeline">
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <header><h3>KTern.AI Infinity Continuum <span class="tag">Team Lead</span></h3><time>Apr 2026 &ndash; Present</time></header>
+            <p>Leading the SAP run-phase automation product line at KTern.AI.</p>
+          </div>
+        </article>
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <header><h3>KTern.AI &ndash; Kaar Technologies</h3><time>Oct 2022 &ndash; Present</time></header>
+            <div class="steps">
+              <span><b>Engineer</b> Nov 2025 &ndash; Present</span>
+              <span><b>Associate Engineer</b> Sep 2024 &ndash; Nov 2025</span>
+              <span><b>Trainee</b> Oct 2022 &ndash; Sep 2024</span>
+            </div>
             <ul>
-                <li><a href="#home01" style="color:rgb(0, 255, 0)">Home</a></li> 
-                <li><a href="#table01">Resume</a></li>
-                <li><a href="#deeds">Deeds</a></li>
-                <li><a href="#footer">Contact</a></li>                
-                <li><a href="javascript:void(0);" class="icon" onClick="myFunction()"><i class="fa fa-bars" title="Thanks For Visiting"></i></a></li>
+              <li>Develop enterprise SaaS features with Angular, React, Next.js, Node.js, NestJS, Python, FastAPI and MongoDB.</li>
+              <li>Built Angular frontends on Node.js and MongoDB backends in the first two years.</li>
+              <li>Build AI agents with LLMs, AWS Bedrock and MCP to automate business workflows.</li>
+              <li>Design backend APIs, microservices, data pipelines and enterprise integrations.</li>
+              <li>Turn business requirements into technical designs with cross-functional teams.</li>
+              <li>Own feature delivery and troubleshooting, coordinate work and support team members.</li>
+              <li>Shared A2UI framework capabilities and implementation knowledge in a peer-learning session.</li>
             </ul>
-        </div>
-         <br><br>
-         <div class="about_p">
-             <br><br><br>
-             <img class="profile-pic" src="images/mb_img.jpg" alt="">
-             <br>
-            <h2>MUGESHBABU ARULMANI</h2>
-            <P>an undergraduate student in <span>Electronics and Communication Engineering</span> at a reputed engineering college. 
-                <br>I have chosen this engineering course to develop my knowledge with new information</P>
-            <br>
-            <div class="about_p"><p>“To work for an organization that provides me the opportunity to improve my skills and knowledge to growth along with the organization’s objective"</p></div>
-            </div><br>
-        <div>
-            <br><ul class="social-links">
-            <li><a href="https://www.linkedin.com/in/mugeshbabu-a-6313161a8" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://www.facebook.com/mugeshbabu.in" target="blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/mugeshbabu_a" target="blank"><i class="fab fa-instagram"></i></a></li>
-         <br></ul>
-        </div>
-    </div>
-    </div>
-    
-    <div id="table01"><div class="table001" style="min-height:600px">
-         <table>
-             
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-        </tr>
-                <tr>
-                    <td><img class="profile-pic" src="images/mb_img.jpg" alt=""></td>
-                    <td>MUGESHBABU A</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>mugesharul1301@gmail.com</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        +91 8072888085</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        Dharmapuri</td>
-                </tr>
-                
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr><tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>EDUCATION</td>
-                    <td style="color: rgb(21, 255, 0);">Bachelor of Engineering (B.E)</td>
-                </tr><tr>
-                    <td></td>
-                    <td>Electronics and Communication
-                        </td>
-                </tr><tr>
-                    <td></td>
-                    <td>Sona College of Technology
-                        </td>
-                </tr><tr>
-                    <td></td>
-                    <td>
-                        2018 - 2022</td>
-                </tr><tr>
-                    <td></td>
-                    <td>CGPA: 8.80/10</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr><tr>
-                    <td></td>
-                    <td style="color: rgb(21, 255, 0);">Senior Secondary (XII)</td>
-                </tr><tr>
-                    <td></td>
-                    <td>Sri Vijay Vidhyalaya (boys)                            </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>(STATE BOARD board)</td>
-                </tr>
-                
-                <tr>
-                    <td></td>
-                    <td>Year of completion: 2018</td>
-                </tr><tr>
-                    <td></td>
-                    <td>Percentage: 86.50%</td>
-                </tr>
-                
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td style="color: rgb(21, 255, 0);">Secondary (X)</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Sri Vijay Vidhyalaya (boys)                            </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>(STATE BOARD board)                            </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Year of completion: 2016</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Percentage: 96.40%</td>
-                </tr>
-                
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
+          </div>
+        </article>
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <header><h3>KTern.AI &ndash; Kaar Technologies <span class="tag">SDE Intern</span></h3><time>Dec 2021 &ndash; Sep 2022</time></header>
+          </div>
+        </article>
+        <article class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <header><h3>NSIC <span class="tag">Internship</span></h3><time>June 2021</time></header>
+            <p>Industrial-based embedded system development with IoT.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-                <tr>
-                    <td>INTERNSHIPS</td>
-                    <td>*Unmaad IIM, Virtual</td>
-                </tr><tr>
-                    <td></td>
-                    <td>
-                        Dec 2018 - Feb 2019</td>
-                </tr><tr>
-                    <td></td>
-                    <td>successful internship with unmaad iim
-                        </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>*Storyofcommonman - with - WOOVLY , Virtual</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Oct 2018 - Nov 2018</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Marketing</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr><tr>
-                    <td></td>
-                    <td></td>
-                </tr><tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>SKILLS</td>
-                    <td>UI & UX Design
-                        Beginner</td>
-                </tr><tr>
-                    <td></td>
-                    <td>********</td>
-                </tr>
-                
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr><tr>
-                    <td></td>
-                    <td>HTML CSS javascript</td>
-                </tr><tr>
-                    <td></td>
-                    <td>********</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                
-                <tr>
-                    <td></td>
-                    <td>Web Development - App Development</td>
-                </tr><tr>
-                    <td></td>
-                    <td></td>
-                </tr><tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="title reveal"><small>03</small> Key Projects</h2>
+      <div class="cards">
+        <article class="card reveal" data-tilt>
+          <h3>KTern.AI Nexus</h3>
+          <p class="sub">Multi-tenant AI agent platform</p>
+          <ul>
+            <li>Built dynamic AI agent configuration and execution workflows.</li>
+            <li>Implemented multi-source ingestion for SAP, Qlik, GitHub and others, with multi-resource selection and source-specific input schema validation.</li>
+            <li>Contributed across a modular monorepo: Next.js, NestJS, authorization services and Camel Engine.</li>
+          </ul>
+          <div class="chips"><span>Next.js 15</span><span>NestJS</span><span>TypeScript</span><span>Prisma</span><span>PostgreSQL</span><span>AI Agents</span></div>
+        </article>
+        <article class="card reveal" data-tilt>
+          <h3>SAP Inventory &amp; GL Reconciliation</h3>
+          <p class="sub">Large-scale data reconciliation platform</p>
+          <ul>
+            <li>Designed SAP RFC extraction across MARA, MARD, MAKT, MARC, MBEW, MCHB, MSLB, MSKU and MSKA.</li>
+            <li>Extracted about 2.6M records in testing; later inventory datasets reached about 3.8M.</li>
+            <li>Built canonical inventory, GL and variance datasets with DuckDB and Parquet.</li>
+            <li>Added async processing and streaming Excel reports. Contributed to the UI, Next.js backend, MCP server and SAP RFC architecture.</li>
+          </ul>
+          <div class="chips"><span>Node.js</span><span>SAP RFC</span><span>DuckDB</span><span>Parquet</span><span>BullMQ</span><span>Redis</span><span>MongoDB</span><span>AWS S3</span></div>
+        </article>
+        <article class="card reveal" data-tilt>
+          <h3>SAP EWM Integration Assurance Agent</h3>
+          <p class="sub">AI agent for ERP&ndash;EWM reliability</p>
+          <ul>
+            <li>Built backend services and scheduled monitoring for ERP&ndash;EWM integrations across ECC, S/4HANA and decentralized EWM.</li>
+            <li>Worked on exception identification, log analysis and AI-assisted corrective-action recommendations.</li>
+          </ul>
+          <div class="chips"><span>Python</span><span>FastAPI</span><span>Pydantic</span><span>APScheduler</span><span>AI Agents</span></div>
+        </article>
+        <article class="card reveal" data-tilt>
+          <h3>SAP Run-Phase Automation</h3>
+          <p class="sub">KTern.AI Infinity Continuum</p>
+          <ul>
+            <li>Contributed to product planning across six areas: change impact simulation, clean core governance, hypercare and stabilization, adoption analytics, incident and problem intelligence, and upgrade orchestration.</li>
+            <li>Contributed to the Hypercare Agent and Clean Core Governance Agent proof-of-concept initiatives.</li>
+          </ul>
+          <div class="chips"><span>Product planning</span><span>AI Agents</span><span>SAP</span></div>
+        </article>
+      </div>
+    </section>
 
-                <tr>
-                    <td></td>
-                    <td>Artical Intelligence</td>
-                </tr><tr>
-                    <td></td>
-                    <td>********</td>
-                </tr>
-                
-                <tr>
-                    <td></td>
-                    <td>Machine Learning</td>
-                </tr><tr>
-                    <td></td>
-                    <td>********</td>
-                </tr><tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>GIT-HUB PAGE</td>
-                    <td>
-                        https://github.com/MUGESHBABU-MAP
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>WORK SAMPLES</td>
-                    <td>https://play.google.com/store/apps/developer?id=MUGESHBABU+ARULMANI</td>
-                </tr>
-                <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>LANGUAGE(S) KNOWN</td>
-                        <td>English</td>
-                    </tr><tr>
-                        <td></td>
-                        <td>Tamil</td>
-                    </tr><tr>
-                        <td></td>
-                        <td>Telugu</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr><tr>
-                        <td></td>
-                        <td></td>
-                    </tr><tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>HOBBY</td>
-                        <td><i class="fas fa-music" aria-hidden="true"></i> --
-                            <i class="fas fa-book" aria-hidden="true"></i> --
-                            <i class="fas fa-gamepad" aria-hidden="true"></i> --
-                            <i class="fab fa-pagelines" aria-hidden="true"></i> --
-                        </td>
-                    </tr><tr>
-                        <td></td>
-                        <td></td>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        
-                        <tr>
-                            <td></td>
-                            <td></td>
-                        </tr><tr>
-                            <td></td>
-                            <td></td>
-                        </tr><tr>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tr><tr>
-                        <td></td>
-                        <td><a onclick="window.print()"><i class="fa fa-print" aria-hidden="true"></i>Print Resume</a></td>
-                    </tr><tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
-                </tr>
-            
-</div></div>
-    <div id="deeds">
-    <div class="certificates_all">
-        <div class="row-f">
-            <div class="col-f">
-            <img class="cer-pic" src="images/img/map03.jpeg" alt="">
-            <div class="text-block"><p>AI - Master class series</p><p>Oct 5 to Nov 3, 2020</p></div>
-            </div>
-            <div class="col-f">
-            <img class="cer-pic" src="images/img/map01.jpeg" alt="">
-            <div class="text-block"><p>Image Processing using matlab</p><p>Nov 02 - Nov 06</p></div>
-            </div>
-            <div class="col-f">
-                <img class="cer-pic" src="images/img/map06.jpg" alt="">
-                <div class="text-block"><p>TCS iON</p><p>Skill Development</p></div>
-                </div>
-        </div>
-        <div class="row-f">
-            
-            <div class="col-f">
-            <img class="cer-pic" src="images/img/map07.jpg" alt="">
-            <div class="text-block"><p>CRAZY FOR SUCESS FOUNDATION</p><p>Marketing Content Writing</p></div>
-            </div>
-            <div class="col-f">
-            <img class="cer-pic" src="images/img/map05.jpeg" alt="">
-            <div class="text-block"><p>ML - BootCamp</p><p>27 July - 08 August, 2020</p></div>
-            </div>
-            <div class="col-f">
-            <img class="cer-pic" src="images/img/map08.jpg" alt="">
-            <div class="text-block"><p>IMPATHON - SONA SIPRO</p><p>36 hr non-stop coding contest</p></div>
-            </div>
-        </div>
-        <div class="row-f">
-            <div class="col-f">
-            <img class="cer-pic" src="images/img/map04.jpeg" alt="">
-            <div class="text-block"><p>Matlab Master class series</p><p>IETE (MUMBAI) - 30 Days</p></div>
-            </div>
-            
-            <div class="col-f">
-            <img class="cer-pic" src="images/img/map02.jpg" alt="">
-            </div>
-            <div class="col-f">
-            <img class="cer-pic" src="images/img/map09.jpg" alt="">
-            <div class="text-block"><p>ARDUINO Master class series</p><p>13 Nov - 14 Dec, 2020</p></div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="myBtn">
-    <button onclick="topFunction()" id="myBtn" title="Go to top">/\</button>
-</div>
-</div>
-    <footer>
-        <div id="footer">
-        <div class="a3part">
-            <div class="a3part part1">
-                <div><br>
-                    <h3>
-                    Contact:</h3><br><br>
-                    Mugeshbabu Arulmani<br>
-                    Pudureddiyur (vill)<br>
-                    Dharmapuri dt, Tamilnadu - 635303<br>
-                    8072888085<br>
-                    mugeshsample@gmail.com<br>
-                </div>
-            </div>
-            <div class="a3part part2" id="works01"><br>
-                <h3>
-                CHECK OUT SOME OF MY WORKS.</h3><br>
-                <a href="https://github.com/MUGESHBABU-MAP" target="_blank">Github Page</a><br>
-                <a href="https://play.google.com/store/apps/developer?id=MUGESHBABU+ARULMANI" target="_blank">Play Store</a><br>
-                <a href="https://www.linkedin.com/in/mugeshbabu-a-6313161a8/" target="_blank">LinkedIn</a><br>
-                    
-        <br>© Copyright Design by<br> <br>MUGESHBABU ARULMANI<br>
-            </div>
-            <div class="a3part part3"><br>
-                <h3>SOCIAL</h3><br>
-                <ul class="social-links">
-                    <li><a href="https://www.linkedin.com/in/mugeshbabu-a-6313161a8" target="blank"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://www.facebook.com/mugeshbabu.in" target="blank"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/mugeshbabu_a" target="blank"><i class="fab fa-instagram"></i></a></li>
-                 </ul>
-                
-        </div>
-        </div>
-    </div>
-    </footer>
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2 class="title reveal"><small>04</small> Technical Skills</h2>
+      <div class="skills">
+        <div class="skill reveal"><h3>AI &amp; Generative AI</h3><div class="chips"><span>AI Agents</span><span>Agentic Workflows</span><span>LLMs</span><span>AWS Bedrock</span><span>MCP</span><span>Prompt Engineering</span><span>AI Automation</span></div></div>
+        <div class="skill reveal"><h3>Languages</h3><div class="chips"><span>TypeScript</span><span>JavaScript</span><span>Python</span></div></div>
+        <div class="skill reveal"><h3>Backend</h3><div class="chips"><span>Node.js</span><span>NestJS</span><span>Express.js</span><span>FastAPI</span><span>Pydantic</span><span>REST APIs</span><span>Microservices</span></div></div>
+        <div class="skill reveal"><h3>Frontend</h3><div class="chips"><span>Angular</span><span>React.js</span><span>Next.js</span></div></div>
+        <div class="skill reveal"><h3>Data</h3><div class="chips"><span>MongoDB</span><span>PostgreSQL</span><span>Prisma ORM</span><span>Redis</span><span>DuckDB</span><span>Apache Parquet</span><span>Data Reconciliation</span></div></div>
+        <div class="skill reveal"><h3>Cloud &amp; Infrastructure</h3><div class="chips"><span>AWS</span><span>Amazon S3</span><span>AWS Bedrock</span><span>Docker</span><span>BullMQ</span></div></div>
+        <div class="skill reveal"><h3>Enterprise</h3><div class="chips"><span>SAP RFC</span><span>SAP ECC</span><span>SAP S/4HANA</span><span>SAP EWM</span><span>Enterprise Integration</span><span>Multi-Tenant SaaS</span></div></div>
+        <div class="skill reveal"><h3>Professional</h3><div class="chips"><span>Requirement Analysis</span><span>Solution Architecture</span><span>Technical Leadership</span><span>Product Development</span><span>Customer Success</span><span>Cross-Functional Collaboration</span></div></div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <h2 class="title reveal"><small>05</small> Research Publications</h2>
+      <ul class="papers">
+        <li class="reveal"><b>Futuristic Flask with Convolutional Neural Network for Removing Gaussian Noise from Digital Images</b><span>AIP Conference Proceedings, 2022 &middot; Author</span></li>
+        <li class="reveal"><b>Auto Surveillance Using IoT</b><span>Springer, Lecture Notes in Networks and Systems, 2022 &middot; Co-author</span></li>
+        <li class="reveal"><b>Determination of Convolutional Neural Network for Removing Gaussian Noise from Digital Images</b><span>Contemporary Perspective on Science, Technology and Research, Vol. 9, 2024 &middot; Co-author</span></li>
+      </ul>
+    </section>
+
+    <!-- ROADMAP -->
+    <section id="roadmap" class="section">
+      <h2 class="title reveal"><small>06</small> Career Roadmap</h2>
+      <div class="road">
+        <div class="road-step reveal"><span>2018</span><h3>B.E. ECE begins</h3><p>Sona College of Technology. Best Student of the Year.</p></div>
+        <div class="road-step reveal"><span>2021</span><h3>IoT &amp; SDE intern</h3><p>NSIC IoT internship, then SDE Intern at KTern.AI.</p></div>
+        <div class="road-step reveal"><span>2022</span><h3>Trainee Engineer</h3><p>Angular, Node.js and MongoDB SaaS features.</p></div>
+        <div class="road-step reveal"><span>2024</span><h3>Associate Engineer</h3><p>Microservices, data pipelines, enterprise integrations.</p></div>
+        <div class="road-step reveal"><span>2025</span><h3>Engineer</h3><p>AI agents, LLMs, AWS Bedrock and MCP.</p></div>
+        <div class="road-step reveal"><span>2026</span><h3>Team Lead &amp; Claude Architect</h3><p>Leading Infinity Continuum. Certified in Nov 2026.</p></div>
+        <div class="road-step next reveal"><span>Next</span><h3>AI Solutions Architect</h3><p>Designing production agentic systems for enterprises.</p></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2 class="title reveal"><small>07</small> Let's build something</h2>
+      <p class="reveal lead">Open to AI product engineering, forward deployed and senior full-stack roles.</p>
+      <div class="contact-grid reveal">
+        <a href="mailto:mugesharul1301@gmail.com" class="c-card magnetic"><small>Email</small>mugesharul1301@gmail.com</a>
+        <a href="tel:+919342099234" class="c-card magnetic"><small>Phone</small>+91 93420 99234</a>
+        <a href="https://www.linkedin.com/in/mugeshbabu" target="_blank" rel="noopener" class="c-card magnetic"><small>LinkedIn</small>linkedin.com/in/mugeshbabu</a>
+        <a href="https://github.com/MUGESHBABU-MAP" target="_blank" rel="noopener" class="c-card magnetic"><small>GitHub</small>github.com/MUGESHBABU-MAP</a>
+      </div>
+      <p class="reveal where">Dharmapuri, India</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Mugeshbabu Arulmani</p>
+    <button id="toTop" aria-label="Back to top">&uarr;</button>
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
