@@ -1,7 +1,19 @@
 {
   "version": 1,
-  "count": 13,
+  "count": 14,
   "items": [
+    {
+      "id": "c8d83acfd",
+      "file": "BigDataFoundation.jpeg",
+      "src": "images/certificates/BigDataFoundation.jpeg",
+      "v": "50fd1d88",
+      "title": "BigDataFoundation",
+      "titleSource": "filename",
+      "width": 1280,
+      "height": 720,
+      "format": "jpeg",
+      "bytes": 141181
+    },
     {
       "id": "ce8ab5335",
       "file": "Claude Certified Architect.jpg",
