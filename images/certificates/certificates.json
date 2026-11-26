@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 12,
+  "count": 13,
   "items": [
     {
       "id": "ce8ab5335",
@@ -145,6 +145,18 @@
       "height": 2591,
       "format": "jpeg",
       "bytes": 886610
+    },
+    {
+      "id": "c85034944",
+      "file": "Publication certificate.jpg",
+      "src": "images/certificates/Publication%20certificate.jpg",
+      "v": "90e81948",
+      "title": "Publication Certificate",
+      "titleSource": "filename",
+      "width": 1754,
+      "height": 1240,
+      "format": "jpeg",
+      "bytes": 868852
     }
   ]
 }
