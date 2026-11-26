@@ -3,6 +3,18 @@
   "count": 11,
   "items": [
     {
+      "id": "c08bae24a",
+      "file": "map00.jpg",
+      "src": "images/certificates/map00.jpg",
+      "v": "c9e37129",
+      "title": "Certificate 11",
+      "titleSource": "fallback",
+      "width": 709,
+      "height": 709,
+      "format": "jpeg",
+      "bytes": 125127
+    },
+    {
       "id": "cf0b03dfb",
       "file": "map01.jpeg",
       "src": "images/certificates/map01.jpeg",
@@ -25,18 +37,6 @@
       "height": 662,
       "format": "jpeg",
       "bytes": 79698
-    },
-    {
-      "id": "c8812fd1a",
-      "file": "map02.jpg",
-      "src": "images/certificates/map02.jpg",
-      "v": "c9e37129",
-      "title": "Certificate 02 (2)",
-      "titleSource": "fallback",
-      "width": 709,
-      "height": 709,
-      "format": "jpeg",
-      "bytes": 125127
     },
     {
       "id": "c8c1fbea6",
