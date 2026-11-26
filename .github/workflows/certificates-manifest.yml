@@ -1,0 +1,77 @@
+name: Update certificate manifest
+
+# GitHub Pages serves this repository straight from the main branch, so the
+# gallery's certificates.json has to exist as a file on main. This workflow
+# regenerates it whenever certificate images change, commits it back, and asks
+# Pages to rebuild. Nothing needs to be edited by hand.
+#
+# Loop protection (three independent layers):
+#   1. The manifest is excluded from the `paths` filter, so the bot's own
+#      commit, which only touches the manifest, cannot match this workflow.
+#   2. Pushes made with the built-in GITHUB_TOKEN never start new workflow runs.
+#   3. The commit step does nothing when the regenerated manifest is identical.
+#
+# The commit message deliberately has no "[skip ci]": GitHub Pages honours it
+# and would skip the build that publishes the new manifest.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'images/certificates/**'
+      - '!images/certificates/certificates.json'
+      - 'scripts/generate-certificates.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit the regenerated manifest to main
+  pages: write      # request a Pages build after the commit
+
+concurrency:
+  group: certificate-manifest
+  cancel-in-progress: false
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Test the generator
+        run: node --test scripts/certificates.test.mjs
+
+      - name: Generate the manifest
+        run: node scripts/generate-certificates.mjs
+
+      - name: Commit the manifest if it changed
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain -- images/certificates/certificates.json)" ]; then
+            echo "Manifest already up to date."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/certificates/certificates.json
+          git commit -m "chore: update certificate manifest"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # A push made with GITHUB_TOKEN does not always start a Pages build,
+      # so ask for one explicitly. A failure here must not fail the run,
+      # because the manifest is already committed by this point.
+      - name: Request a Pages build
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method POST "repos/${{ github.repository }}/pages/builds" \
+            || echo "::warning::Could not request a Pages build. Pages normally builds from the push anyway."

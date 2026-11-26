@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "count": 10,
+  "items": [
+    {
+      "id": "cf0b03dfb",
+      "file": "map01.jpeg",
+      "src": "images/certificates/map01.jpeg",
+      "v": "d3c10f80",
+      "title": "Certificate 01",
+      "titleSource": "fallback",
+      "width": 972,
+      "height": 648,
+      "format": "jpeg",
+      "bytes": 68662
+    },
+    {
+      "id": "c3e5fb586",
+      "file": "map02.jpeg",
+      "src": "images/certificates/map02.jpeg",
+      "v": "df7628eb",
+      "title": "Certificate 02",
+      "titleSource": "fallback",
+      "width": 920,
+      "height": 662,
+      "format": "jpeg",
+      "bytes": 79698
+    },
+    {
+      "id": "c8812fd1a",
+      "file": "map02.jpg",
+      "src": "images/certificates/map02.jpg",
+      "v": "c9e37129",
+      "title": "Certificate 02 (2)",
+      "titleSource": "fallback",
+      "width": 709,
+      "height": 709,
+      "format": "jpeg",
+      "bytes": 125127
+    },
+    {
+      "id": "c8c1fbea6",
+      "file": "map03.jpeg",
+      "src": "images/certificates/map03.jpeg",
+      "v": "f262a8c6",
+      "title": "Certificate 03",
+      "titleSource": "fallback",
+      "width": 972,
+      "height": 648,
+      "format": "jpeg",
+      "bytes": 75094
+    },
+    {
+      "id": "c80deb9df",
+      "file": "map04.jpeg",
+      "src": "images/certificates/map04.jpeg",
+      "v": "64055d40",
+      "title": "Certificate 04",
+      "titleSource": "fallback",
+      "width": 972,
+      "height": 648,
+      "format": "jpeg",
+      "bytes": 59232
+    },
+    {
+      "id": "c0839a484",
+      "file": "map05.jpeg",
+      "src": "images/certificates/map05.jpeg",
+      "v": "c9453df6",
+      "title": "Certificate 05",
+      "titleSource": "fallback",
+      "width": 904,
+      "height": 1280,
+      "format": "jpeg",
+      "bytes": 63980
+    },
+    {
+      "id": "c1b103a1a",
+      "file": "map06.jpg",
+      "src": "images/certificates/map06.jpg",
+      "v": "62322d89",
+      "title": "Certificate 06",
+      "titleSource": "fallback",
+      "width": 1800,
+      "height": 1272,
+      "format": "jpeg",
+      "bytes": 86962
+    },
+    {
+      "id": "c2be4b379",
+      "file": "map07.jpg",
+      "src": "images/certificates/map07.jpg",
+      "v": "f330c9b3",
+      "title": "Certificate 07",
+      "titleSource": "fallback",
+      "width": 1389,
+      "height": 1797,
+      "format": "jpeg",
+      "bytes": 86056
+    },
+    {
+      "id": "cb9e3ff62",
+      "file": "map08.jpg",
+      "src": "images/certificates/map08.jpg",
+      "v": "4c6dec3d",
+      "title": "Certificate 08",
+      "titleSource": "fallback",
+      "width": 1270,
+      "height": 1797,
+      "format": "jpeg",
+      "bytes": 118467
+    },
+    {
+      "id": "cc28e9c26",
+      "file": "map09.jpg",
+      "src": "images/certificates/map09.jpg",
+      "v": "448f3c77",
+      "title": "Certificate 09",
+      "titleSource": "fallback",
+      "width": 972,
+      "height": 648,
+      "format": "jpeg",
+      "bytes": 62485
+    }
+  ]
+}
