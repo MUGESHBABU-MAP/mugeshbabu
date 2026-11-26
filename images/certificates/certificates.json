@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 11,
+  "count": 12,
   "items": [
     {
       "id": "c08bae24a",
@@ -133,6 +133,18 @@
       "height": 2550,
       "format": "jpeg",
       "bytes": 556808
+    },
+    {
+      "id": "cb1a7c82a",
+      "file": "Mugeshbabu A - KTern - GE22 Internship Completion Certificate[24].jpg",
+      "src": "images/certificates/Mugeshbabu%20A%20-%20KTern%20-%20GE22%20Internship%20Completion%20Certificate%5B24%5D.jpg",
+      "v": "8b889716",
+      "title": "Mugeshbabu a KTern GE22 Internship Completion Certificate[24]",
+      "titleSource": "filename",
+      "width": 1728,
+      "height": 2591,
+      "format": "jpeg",
+      "bytes": 886610
     }
   ]
 }
