@@ -430,6 +430,20 @@
         </ul>
       </section>
     </div>
+
+    <div class="certs" id="certificates" data-certs data-manifest="images/certificates/certificates.json" aria-labelledby="certs-h">
+      <div class="certs-head grid">
+        <div class="certs-title">
+          <span class="mono">Certificate gallery</span>
+          <h3 id="certs-h">Certificates</h3>
+        </div>
+        <p class="certs-lede">Select a certificate to enlarge it. In the viewer, use the arrow keys to move between them.</p>
+        <p class="certs-count mono" id="certs-count" aria-live="polite"></p>
+      </div>
+      <p class="certs-status" role="status">Loading certificates&hellip;</p>
+      <ul class="cert-grid" aria-label="Certificates" hidden></ul>
+      <noscript><p class="certs-status">The certificate gallery needs JavaScript to load.</p></noscript>
+    </div>
   </section>
 
   <!-- ===================== 05 CONTACT ===================== -->
@@ -460,6 +474,30 @@
   </div>
 </footer>
 
+<dialog class="lb" id="lb" aria-labelledby="lb-title">
+  <div class="lb-in">
+    <header class="lb-bar">
+      <p class="lb-count mono" id="lb-count"></p>
+      <div class="lb-heading">
+        <h3 class="lb-title" id="lb-title"></h3>
+        <p class="lb-meta mono" id="lb-meta" hidden></p>
+      </div>
+      <button type="button" class="lb-close" id="lb-close" aria-label="Close preview"><span class="mono">Close</span></button>
+    </header>
+    <div class="lb-stage">
+      <button type="button" class="lb-nav lb-prev" id="lb-prev" aria-label="Previous certificate"><i class="ar" aria-hidden="true"></i></button>
+      <figure class="lb-fig">
+        <img class="lb-img" id="lb-img" alt="">
+        <p class="lb-err" id="lb-err" role="alert" hidden>This certificate could not be loaded.</p>
+      </figure>
+      <button type="button" class="lb-nav lb-next" id="lb-next" aria-label="Next certificate"><i class="ar" aria-hidden="true"></i></button>
+    </div>
+    <p class="lb-hint mono"><span class="lb-hint-k">Arrow keys to browse &middot; Esc to close</span><span class="lb-hint-t">Swipe to browse</span></p>
+    <p class="vh" id="lb-live" aria-live="polite"></p>
+  </div>
+</dialog>
+
 <script src="main.js" defer></script>
+<script src="certificates.js" defer></script>
 </body>
 </html>
