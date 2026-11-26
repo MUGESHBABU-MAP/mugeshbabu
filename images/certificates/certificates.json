@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 10,
+  "count": 11,
   "items": [
     {
       "id": "cf0b03dfb",
@@ -121,6 +121,18 @@
       "height": 648,
       "format": "jpeg",
       "bytes": 62485
+    },
+    {
+      "id": "cbd10803f",
+      "file": "map10.jpg",
+      "src": "images/certificates/map10.jpg",
+      "v": "d9f28578",
+      "title": "Certificate 10",
+      "titleSource": "fallback",
+      "width": 3300,
+      "height": 2550,
+      "format": "jpeg",
+      "bytes": 556808
     }
   ]
 }
