@@ -3,11 +3,23 @@
   "count": 12,
   "items": [
     {
+      "id": "ce8ab5335",
+      "file": "Claude Certified Architect.jpg",
+      "src": "images/certificates/Claude%20Certified%20Architect.jpg",
+      "v": "d9f28578",
+      "title": "Claude Certified Architect",
+      "titleSource": "filename",
+      "width": 3300,
+      "height": 2550,
+      "format": "jpeg",
+      "bytes": 556808
+    },
+    {
       "id": "c08bae24a",
       "file": "map00.jpg",
       "src": "images/certificates/map00.jpg",
       "v": "c9e37129",
-      "title": "Certificate 11",
+      "title": "Certificate 10",
       "titleSource": "fallback",
       "width": 709,
       "height": 709,
@@ -121,18 +133,6 @@
       "height": 648,
       "format": "jpeg",
       "bytes": 62485
-    },
-    {
-      "id": "cbd10803f",
-      "file": "map10.jpg",
-      "src": "images/certificates/map10.jpg",
-      "v": "d9f28578",
-      "title": "Certificate 10",
-      "titleSource": "fallback",
-      "width": 3300,
-      "height": 2550,
-      "format": "jpeg",
-      "bytes": 556808
     },
     {
       "id": "cb1a7c82a",
