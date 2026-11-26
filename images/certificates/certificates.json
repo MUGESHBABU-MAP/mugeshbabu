@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 13,
+  "count": 12,
   "items": [
     {
       "id": "c08bae24a",
@@ -145,18 +145,6 @@
       "height": 2591,
       "format": "jpeg",
       "bytes": 886610
-    },
-    {
-      "id": "c49f2aafc",
-      "file": "MUGESHBABU_ARULMANIV-mugeshbabu.18ece@sonatech.ac.in-9873795.jpg",
-      "src": "images/certificates/MUGESHBABU_ARULMANIV-mugeshbabu.18ece%40sonatech.ac.in-9873795.jpg",
-      "v": "50fd1d88",
-      "title": "Mugeshbabu Arulmaniv Mugeshbabu 18ece@sonatech Ac in 9873795",
-      "titleSource": "filename",
-      "width": 1280,
-      "height": 720,
-      "format": "jpeg",
-      "bytes": 141181
     }
   ]
 }
